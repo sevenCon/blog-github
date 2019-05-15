@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .block{
+            width:200px;
+            height:200px;
+            background-color: red;
+            margin:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="block" onclick="loop()"></div>
+    <script>
+        function loop(){
+            setTimeout(()=>{console.log(1)}, 0);   //  1
+            requestAnimationFrame(()=>console.log(2));   // 2
+        }
+    </script>
+</body>
+</html>

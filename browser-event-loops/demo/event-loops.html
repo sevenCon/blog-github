@@ -9,10 +9,21 @@
 </head>
 
 <body>
-    <div class="outer" style="width:200px;height:200px;background-color: #ccc">
-    1
-    <div class="inner" style="width:100px;height:100px;background-color: #ddd">begin</div>
-    </div>
+<script>
+    let i = 0;
+    while(i++< 1000){
+        loop();
+    }
+    function loop(){
+        // setTimeout(function(){
+            // console.log("timeout");
+        // }); 
+        requestAnimationFrame(function(){
+            console.log("request")
+        });
+        console.log("sync");
+    }
+</script>
 
 </body>
 

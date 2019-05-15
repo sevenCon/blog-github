@@ -5,8 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>timeout 4 ms</title>
+    <style>
+        #content{
+            height:200px;
+            width: 200px;
+            background-color:#333;
+            position: absolute;
+            left:0;
+            top:0;
+            animation: ani infinite 5s;
+        }
+        @keyframes ani{
+            0%{
+                left:0;
+            }
+            100%{
+                left:100%;
+            }
+        }
+    </style>
 </head>
 <body>
+    <div id="content" ></div>
     <script>
         // time
         let t = 0 , timer = null;
@@ -14,7 +34,11 @@
             var timestart = Date.now();
             var timeEnd = 0;
             timer = setTimeout(function(){
-                if(t++ == 200) return;
+                if(t++ == 200) {
+                    let text = document.createTextNode('111');
+                    document.querySelector("#content").appendChild(text);
+                    return;
+                }
 
                 timeEnd = Date.now();
                 console.log(timeEnd - timestart, timestart, timeEnd);
@@ -23,6 +47,9 @@
             }, 0);
         }
         loop();
+
+        
+        
     </script>
 </body>
 </html>
