@@ -7,4 +7,4 @@ this is my blog , and some summary in works, life.
 - [从http建立连接, 到https的过程](https://github.com/sevenCon/blog-github/issues/4)
 - [巩固一下js的正则表达式](https://github.com/sevenCon/blog-github/issues/5)
 - [ElementUI里面的输入框高度自适应为什么会跳动](https://github.com/sevenCon/blog-github/issues/7)
-- [认识一下Cookie的几个的参数-2019-08-07 21:52](https://github.com/sevenCon/blog-github/issues/8)
+- [认识一下Cookie的几个的配置-2019-08-07 21:52](https://github.com/sevenCon/blog-github/issues/8)
