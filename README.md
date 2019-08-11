@@ -8,3 +8,4 @@ this is my blog , and some summary in works, life.
 - [巩固一下js的正则表达式](https://github.com/sevenCon/blog-github/issues/5)
 - [ElementUI里面的输入框高度自适应为什么会跳动](https://github.com/sevenCon/blog-github/issues/7)
 - [认识一下Cookie的几个的配置-2019-08-07 21:52](https://github.com/sevenCon/blog-github/issues/8)
+- [http2新增的哪些功能-2019-08-11 21:52](https://github.com/sevenCon/blog-github/issues/9)
