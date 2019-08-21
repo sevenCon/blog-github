@@ -11,3 +11,4 @@ this is my blog , and some summary in works, life.
 - [http2新增的哪些功能-2019-08-11](https://github.com/sevenCon/blog-github/issues/9)
 - [浏览器是怎么渲染一个页面的-2019-08-14](https://github.com/sevenCon/blog-github/issues/10)
 - [动手写一个符合promises-aplus-tests测试的promise库-2019-08-18](https://github.com/sevenCon/blog-github/issues/11)
+- [vue是怎么收集模板收集依赖和通知更新的-2019-08-21](https://github.com/sevenCon/blog-github/issues/12)
