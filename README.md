@@ -14,4 +14,5 @@ this is my blog , and some summary in works, life.
 - [动手写一个符合 promises-aplus-tests 测试的 promise 库-2019-08-18](https://github.com/sevenCon/blog-github/issues/11)
 - [vue 是怎么收集模板收集依赖和通知更新的-2019-08-21](https://github.com/sevenCon/blog-github/issues/12)
 - [AST 抽象语法树-2019-08-25](https://github.com/sevenCon/blog-github/issues/13)
-- [vue.js中nextTick 和setTimeout有什么区别-2019-08-27](https://github.com/sevenCon/blog-github/issues/14)
+- [vue.js 中 nextTick 和 setTimeout 有什么区别-2019-08-27](https://github.com/sevenCon/blog-github/issues/14)
+- [认识一下 MutationObserver 和 IntersectionObserver-2019-08-29](https://github.com/sevenCon/blog-github/issues/15)
