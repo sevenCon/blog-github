@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>[js api]drag and drop</title>
+    <style>
+      .lists {
+        width: 200px;
+      }
+      .list-item {
+        padding: 12px;
+        border: 1px solid #eee;
+        color: #999;
+        margin: 12px 0;
+        line-height: 0;
+      }
+      .list-item img {
+        vertical-align: middle;
+        height: 24px;
+        width: 24px;
+        border-radius: 3px;
+      }
+      .drag-trash-backet {
+        position: fixed;
+        height: 100px;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        color: #fff;
+        background-color: #da5454;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 4px;
+        line-height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="lists">
+        <div
+          v-for="item in lists"
+          :id="item.id"
+          @dragstart="dragstartHandler"
+          @dragend="dropendHandler"
+          @dragleave="dragleaveHandler"
+          @dragexit="dragexitHandler"
+          :key="item.id"
+          draggable
+          class="list-item"
+        >
+          <img src="./img.png" alt="" /> {{ item.name }}
+        </div>
+      </div>
+      <div class="drag-trash-backet" @dragover="dragoverHandler" @drop="dropHandler">垃圾桶</div>
+    </div>
+    <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
+    <script>
+      let vm = new Vue({
+        el: '#app',
+        data: {
+          lists: [{ name: '列表1', id: 1 }, { name: '列表2', id: 2 }, { name: '列表3', id: 3 }, { name: '列表4', id: 4 }]
+        },
+        methods: {
+          dragstartHandler(ev) {
+            console.log('dragstartHandler');
+            var img = new Image();
+            img.src = 'img.png';
+            ev.dataTransfer.setDragImage(img, 10, 10);
+            ev.dataTransfer.setData('text1', ev.target.id);
+          },
+          dropendHandler(ev) {
+            // console.log(ev.dataTransfer);
+          },
+          dropHandler(ev) {
+            console.log('dropHandler');
+            // console.log(ev.dataTransfer);
+            // 取消默认的指针事件, 和触点事件
+            ev.preventDefault();
+            var sourceId = ev.dataTransfer.getData('text1');
+            let idx = -1;
+            for (let i = 0, length = vm.lists.length; i < length; i++) {
+              if (vm.lists[i].id == +sourceId) {
+                idx = i;
+                break;
+              }
+            }
+
+            if (idx == -1) return;
+            vm.lists.splice(idx, 1);
+          },
+          dragleaveHandler() {
+            console.log('dragleaveHandler');
+          },
+          dragoverHandler(ev) {
+            console.log('dragoverHandler');
+            ev.dataTransfer.dropEffect = 'copy';
+            ev.preventDefault();
+          },
+          dragexitHandler() {
+            console.log('dragexitHandler');
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

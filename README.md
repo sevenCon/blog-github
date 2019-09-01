@@ -16,3 +16,4 @@ this is my blog , and some summary in works, life.
 - [AST 抽象语法树-2019-08-25](https://github.com/sevenCon/blog-github/issues/13)
 - [vue.js 中 nextTick 和 setTimeout 有什么区别-2019-08-27](https://github.com/sevenCon/blog-github/issues/14)
 - [认识一下 MutationObserver 和 IntersectionObserver-2019-08-29](https://github.com/sevenCon/blog-github/issues/15)
+- [JS API 拖拽事件-2019-09-01](https://github.com/sevenCon/blog-github/issues/16)
