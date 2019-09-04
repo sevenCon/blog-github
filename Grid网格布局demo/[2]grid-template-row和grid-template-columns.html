@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./common.css" />
+    <title>grid 网格布局(二)</title>
+    <style>
+      .grid {
+        width: 300px;
+        height: 300px;
+        /* grid-template-rows: repeat(auto-fill, 100px);
+        grid-template-columns: repeat(auto-fill, 100px); */
+
+        grid-template-rows: [r1] 1fr [r2] auto [r3] 1fr [r4];
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-areas: 'a b c' 'a d e' 'a h i';
+        /* grid-template-rows: 100px 100px 100px;
+        grid-template-columns: 100px 100px 100px; */
+      }
+      .grid div {
+        color: #fff;
+        font-size: 48px;
+      }
+      pre {
+        background-color: #eee;
+        padding: 12px;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Grid 网格布局demo(二)</h1>
+    <div class="container">
+      <pre>
+<code>
+.grid{
+  display:grid; 
+
+  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(3, 100px);
+
+  或
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+
+  或
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+</code>
+</pre>
+      <div class="grid">
+        <div class="clr-1">1</div>
+        <div class="clr-2">2</div>
+        <div class="clr-3">3</div>
+        <div class="clr-4">4</div>
+        <div class="clr-5">5</div>
+        <div class="clr-6">6</div>
+        <div class="clr-7">7</div>
+        <div class="clr-8">8</div>
+        <div class="clr-9">9</div>
+      </div>
+    </div>
+    <div class="bottom">
+      <a href="[1]开启grid布局.html" class="pull-left">上一篇:开启grid布局</a>
+      <a href="[3]grid-auto-flow.html" class="pull-right">下一篇:[2]grid-template-row和grid-template-columns</a>
+    </div>
+  </body>
+</html>

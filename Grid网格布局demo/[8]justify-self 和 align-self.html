@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./common.css" />
+    <title>grid 网格布局(五)</title>
+    <style>
+      .grid {
+        background-color: #eee;
+
+        grid-template-rows: [r1] 100px [r2] 100px [r3] 100px[r4];
+        grid-template-columns: [c1] 100px [c2] 100px [c3] 100px[c4];
+
+        grid-auto-flow: row;
+
+        justify-items: stretch;
+        align-items: stretch;
+
+        justify-content: space-around;
+        align-content: space-around;
+
+        grid-auto-rows: 100px;
+        grid-auto-columns: 100px;
+        grid-gap: 10px;
+      }
+
+      .grid div {
+        color: #fff;
+        font-size: 48px;
+      }
+      .grid div:last-child {
+        /* grid-area: 4 / 1 / 5 / 4; */
+        justify-self: end;
+        align-self: end;
+      }
+      pre {
+        background-color: #eee;
+        padding: 12px;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Grid 网格布局demo(八)</h1>
+    <div class="container">
+      <h1>
+        <pre><code>justify-self: end; align-self: end;</pre>
+      </h1>
+      <pre><code>
+.grid{
+  justify-self: end;
+  align-self: end;
+}
+</code>
+</pre>
+
+      <div class="grid inline one">
+        <div class="clr-1">1</div>
+        <div class="clr-2">2</div>
+        <div class="clr-3">3</div>
+        <div class="clr-4">4</div>
+        <div class="clr-5">5</div>
+        <div class="clr-6">6</div>
+        <div class="clr-7">7</div>
+        <div class="clr-8">8</div>
+        <div class="clr-9">9</div>
+      </div>
+    </div>
+    <div class="bottom">
+      <a href="[4]justify-items和align-items.html" class="pull-left">上一篇:[4]justify-items和align-items</a>
+      <a href="javascript:void(0)" class="pull-right">下一篇:无</a>
+    </div>
+  </body>
+</html>

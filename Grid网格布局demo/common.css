@@ -1,0 +1,74 @@
+.clr-1 {
+    background-color: #66CCCC
+}
+
+.clr-2 {
+    background-color: #CCFF66
+}
+
+.clr-3 {
+    background-color: #FF99CC
+}
+
+.clr-4 {
+    background-color: #666699
+}
+
+.clr-5 {
+    background-color: #FF9900
+}
+
+.clr-6 {
+    background-color: #FF6600
+}
+
+.clr-7 {
+    background-color: #993366
+}
+
+.clr-8 {
+    background-color: #336699
+}
+
+.clr-9 {
+    background-color: #009966
+}
+
+.grid {
+    display: grid;
+}
+
+.inline.grid {
+    display: inline-grid
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    margin: 0px 0 48px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #336699;
+    color: #fff;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.bottom a {
+    color: inherit;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
