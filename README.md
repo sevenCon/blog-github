@@ -26,3 +26,4 @@ this is my blog , and some summary in works, life.
 
 - [JS API 拖拽事件-2019-09-01](https://github.com/sevenCon/blog-github/issues/16)
 - [html 功能强大的 Grid 网格布局-2019-09-04](https://github.com/sevenCon/blog-github/issues/17)
+- [webpack 中怎么兼容 ES6 和 CommonJS 的模块加载-2019-09-25](https://github.com/sevenCon/blog-github/issues/18)
