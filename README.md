@@ -4,13 +4,13 @@ this is my blog , and some summary in works, life.
 
 ### 2019-10 月
 
-- [webpack 里面 ExtractTextWebpackPlugin 的使用的一下疑问-2019-10-01](https://github.com/sevenCon/blog-github/issues/19)
+- [webpack 学习笔记(2)-ExtractTextWebpackPlugin 的使用的一下疑问-2019-10-01](https://github.com/sevenCon/blog-github/issues/19)
 
 ### 2019-09 月
 
 - [JS API 拖拽事件-2019-09-01](https://github.com/sevenCon/blog-github/issues/16)
 - [html 功能强大的 Grid 网格布局-2019-09-04](https://github.com/sevenCon/blog-github/issues/17)
-- [webpack 中怎么兼容 ES6 和 CommonJS 的模块加载-2019-09-25](https://github.com/sevenCon/blog-github/issues/18)
+- [webpack 学习笔记(1)-为什么 webpack 兼容 ES6 和 CommonJS 的模块加载-2019-09-25](https://github.com/sevenCon/blog-github/issues/18)
 
 ### 2019-08 月
 
