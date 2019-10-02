@@ -11,13 +11,22 @@ module.exports = {
     chunkFilename: '[name].[chunkhash].bundle.js',
     publicPath: './output'
   },
+  devtool: 'source-map',
   module: {
     rules: [
       {
         test: /\.less$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: ['css-loader', 'less-loader'],
+          use: [
+            {
+              loader: 'css-loader',
+              options: {
+                sourceMap: true
+              }
+            },
+            'less-loader'
+          ],
           publicPath: './extractPath/' // css 里面图片资源引入的前缀
         })
       },

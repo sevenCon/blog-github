@@ -1,0 +1,17 @@
+.sync {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url(publicPath/d109519d62637ca8f65528002ff9c735.jpg);
+}
+.sync .sync-item {
+  font-size: 12px;
+}
+.defer {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.defer .defer-item {
+  font-size: 12px;
+}

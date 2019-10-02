@@ -1,0 +1,6 @@
+.a {
+  font-weight: bold;
+  box-sizing: border-box;
+  -ms-transform: translate(-30%, -40%);
+      transform: translate(-30%, -40%);
+}
