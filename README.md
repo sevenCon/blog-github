@@ -6,6 +6,7 @@ this is my blog , and some summary in works, life.
 
 - [webpack 学习笔记(2)-ExtractTextWebpackPlugin 的使用-2019-10-01](https://github.com/sevenCon/blog-github/issues/19)
 - [webpack 学习笔记(3)-postcss-loader 的基本使用-2019-10-02](https://github.com/sevenCon/blog-github/issues/20)
+- [webpack 学习笔记(4)-webpack 里面的 target 参数-2019-10-04](https://github.com/sevenCon/blog-github/issues/21)
 
 ### 2019-09 月
 
