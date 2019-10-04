@@ -1,0 +1,20 @@
+{
+  "name": "compare-webpack-target-bundles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rimraf dist/ && webpack --colors"
+  },
+  "author": "Sean Larkin",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "webpack": "^2.2.0",
+    "webpack-merge": "^0.14.1"
+  },
+  "dependencies": {
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  }
+}
