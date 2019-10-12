@@ -11,6 +11,7 @@ this is my blog , and some summary in works, life.
 - [webpack 学习笔记(4)-webpack 里面的 target 参数-2019-10-04](https://github.com/sevenCon/blog-github/issues/21)
 - [webpack 学习笔记(5)-webpack 里面的 libraryTarget 参数-2019-10-05](https://github.com/sevenCon/blog-github/issues/22)
 - [webpack 学习笔记(6)-babel-loader 的使用 -2019-10-09](https://github.com/sevenCon/blog-github/issues/23)
+- [webpack 学习笔记(7)-bable 的各种依赖理解,corejs, babel-runtime, babel-polyfill 等等-2019-10-13](https://github.com/sevenCon/blog-github/issues/24)
 
 ### 2019-09 月
 

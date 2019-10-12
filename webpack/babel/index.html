@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>babel</title>
+  </head>
+  <body>
+    <h1>test @babel/polyfill</h1>
+    <pre>
+      <code>
+          import '@babel/polyfill';
+          // instance method
+          let isInclude = '1'.includes('1');
+          alert(isInclude);
+
+
+          // babel.config.js
+          const presets = [
+            [
+              '@babel/env',
+              {
+                modules: false,
+                targets: {
+                  ie: '9',
+                  firefox: '39',
+                  chrome: '40'
+                },
+                useBuiltIns: 'entry',
+                corejs: 3
+              }
+            ]
+          ];
+      </code>
+    </pre>
+    <script src="./dist/index.js"></script>
+  </body>
+</html>
