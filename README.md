@@ -1,8 +1,7 @@
 # quanlincong front-end study articles
 
-all the articles had been updated to the website https://www.quanlincong.com. welcome!
-
 this is my blog , and some summary in works, life.
+all the articles had been updated to the website https://www.quanlincong.com. welcome!
 
 ### 2019-10 月
 
