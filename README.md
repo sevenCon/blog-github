@@ -12,6 +12,7 @@ this is my blog , and some summary in works, life.
 - [webpack 学习笔记(5)-webpack 里面的 libraryTarget 参数-2019-10-05](https://github.com/sevenCon/blog-github/issues/22)
 - [webpack 学习笔记(6)-babel-loader 的使用 -2019-10-09](https://github.com/sevenCon/blog-github/issues/23)
 - [webpack 学习笔记(7)-bable 的各种依赖理解,corejs, babel-runtime, babel-polyfill 等等-2019-10-13](https://github.com/sevenCon/blog-github/issues/24)
+- [webpack 学习笔记(8)-利用 tree-shaking 剔除冗余代码-2019-10-17](https://github.com/sevenCon/blog-github/issues/25)
 
 ### 2019-09 月
 
