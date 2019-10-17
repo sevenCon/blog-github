@@ -1,0 +1,17 @@
+{
+  "name": "sideEffect(webpack3.0)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.7.0",
+    "uglifyjs-webpack-plugin": "1",
+    "webpack": "3"
+  }
+}
