@@ -1,0 +1,13 @@
+{
+  "name": "ModuleConcatenationPlugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "rimraf -f ./dist && node --inspect-brk ./node_modules/webpack/bin/webpack.js --config webpack.config.js"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.0",
+    "webpack": "3.12"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "globals": {
+        "options": true,
+        "mangle": true,
+        "rename": true,
+        "beautify": true,
+        "console": false,
+        "window": false,
+        "global": false
+    },
+    "rules": {
+        "semi": "off"
+    }
+}

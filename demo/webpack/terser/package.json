@@ -1,0 +1,12 @@
+{
+  "name": "terser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "terser src/index.js -o ./dist/index.min.js -c -m"
+  },
+  "dependencies": {
+    "terser": "^4.3.9"
+  }
+}
