@@ -14,6 +14,7 @@ all the articles had been updated to the website https://www.quanlincong.com. we
 - [webpack 学习笔记(6)-babel-loader 的使用 -2019-10-09](https://github.com/sevenCon/blog-github/issues/23)
 - [webpack 学习笔记(7)-bable 的各种依赖理解,corejs, babel-runtime, babel-polyfill 等等-2019-10-13](https://github.com/sevenCon/blog-github/issues/24)
 - [webpack 学习笔记(8)-利用 tree-shaking 剔除冗余代码-2019-10-17](https://github.com/sevenCon/blog-github/issues/25)
+- [webpack 学习笔记(9)-scope Hoisting-2019-10-21](https://github.com/sevenCon/blog-github/issues/26)
 
 ### 2019-09 月
 
