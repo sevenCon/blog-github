@@ -22,6 +22,12 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    alias: {
+      src: path.resolve('./src'),
+      test$: path.resolve('./src/test.js')
+    }
+  },
   plugins: [
     // new UglifyJsPlugin({
     //   uglifyOptions: {

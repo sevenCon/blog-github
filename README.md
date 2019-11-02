@@ -3,6 +3,10 @@
 this is my blog , and some summary in works, life.
 all the articles had been updated to the website https://www.quanlincong.com. welcome!
 
+### 2019-11 月
+
+- [webpack 学习笔记(11)-你为了提升打包的速度，做过哪些尝试？-2019-11-02](https://github.com/sevenCon/blog-github/issues/28)
+
 ### 2019-10 月
 
 > demo 在`webpack/`目录下
