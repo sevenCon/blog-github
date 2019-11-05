@@ -3,7 +3,7 @@
 this is my blog , and some summary in works, life.
 all the articles had been updated to the website https://www.quanlincong.com. welcome!
 
-以后所有的文章不再 issue 里面提文章了, 迁移到https://www.quanlincong.com, 欢迎来提问题!
+以后所有的文章不再在 issue 上提文章, 迁移到https://www.quanlincong.com, 欢迎来提问题!
 .
 
 ### 2019-11 月
